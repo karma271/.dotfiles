@@ -1,0 +1,12 @@
+# zsh plugins
+
+# vi mode
+jeffreytse/zsh-vi-mode
+
+# zsh completion
+mattmc3/ez-compinit
+zsh-users/zsh-completions kind:fpath path:src
+
+# zsh auto suggestions
+zsh-users/zsh-autosuggestions
+
