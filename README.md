@@ -22,15 +22,15 @@ git clone git@github.com:karma271/.dotfiles.git ~
   sudo dnf install stow -y
   ```
 
-- cd nto `~/.dotfiles` directory and run:
+- cd nto `~/.dotfiles` directory and run the following to setup all the components inside of dotfiles directory:
 
 ```
 stow .
 ```
 
-or
+or to setup individual components run:
 
 ```
 # stow <folder>
-stopw nvim
+stow nvim
 ```
