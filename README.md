@@ -1,12 +1,14 @@
 # .dotfiles
 
-# Set up:
+## Set up:
 
-- Download this repo to the home directory:
+### Download this repo to the home directory:
 
 ```
 git clone git@github.com:karma271/.dotfiles.git ~
 ```
+
+### Install `stow`
 
 - Download stow:
 
@@ -22,7 +24,9 @@ git clone git@github.com:karma271/.dotfiles.git ~
   sudo dnf install stow -y
   ```
 
-- cd nto `~/.dotfiles` directory and run the following to setup all the components inside of dotfiles directory:
+### Setup dotfiles using stow
+
+- cd into `~/.dotfiles` directory and run the following to setup all the components inside of dotfiles directory:
 
 ```
 stow .
